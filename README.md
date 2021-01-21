@@ -92,6 +92,8 @@ optional arguments:
                         /home/taylor/.redactedbetter/cache)
   -U, --no-upload       don't upload new torrents (in case you want to do it
                         manually) (default: False)
+  -P, --no-prompt       don't prompt for user input (to run unattended)
+                        (default: False)
   -E, --no-24bit-edit   don't try to edit 24-bit torrents mistakenly labeled
                         as 16-bit (default: False)
   --version             show program's version number and exit
