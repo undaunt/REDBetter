@@ -183,9 +183,9 @@ def main():
             print("\n\n")
             print(border_msg(releaseartist.encode("utf-8") + "\n" + releasename.encode("utf-8") + "\n" + releaseyear.encode("utf-8") + "\n" + releaseurl.encode("utf-8")))
 
-            if noyear and not force_year:
-            print "Skipping because release has no year set"
-            continue
+                if noyear and not force_year:
+                print "Skipping because release has no year set"
+                continue
 
             if not torrent['filePath']:
                 flac_file = os.path.join(data_dir, redactedapi.unescape(torrent['fileList']).split('{{{')[0])
